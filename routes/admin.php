@@ -29,9 +29,17 @@ Route::prefix('admin')->name('admin.')->group(function () {
 		->middleware('auth:admin')
         ->name('add');
 		
+	Route::get('/edit/{id}',[DashboardController::class, 'edit'])
+		->middleware('auth:admin')
+        ->name('edit');
+		
 	Route::post('/store',[CalonController::class, 'store'])
 		->middleware('auth:admin')
         ->name('store');
+	
+	Route::post('/update',[CalonController::class, 'update'])
+		->middleware('auth:admin')
+        ->name('update');
 
     Route::get('/register', [RegisteredUserController::class, 'create'])
         ->middleware('guest:admin')

@@ -21,6 +21,7 @@ class User extends Authenticatable
         'nik',
 		'notelp',
         'password',
+		'hasVoted',
     ];
 
     /**

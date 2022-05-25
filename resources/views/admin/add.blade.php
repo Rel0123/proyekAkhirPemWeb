@@ -9,7 +9,7 @@
         <!-- Validation Errors -->
         <x-auth-validation-errors class="mb-4" :errors="$errors" />
 
-        <form method="POST" action="{{ route('admin.store') }}">
+        <form method="POST" action="{{ route('admin.store') }}" enctype="multipart/form-data">
             @csrf
 
             <!-- Name -->
@@ -24,6 +24,13 @@
                 <x-label for="nik" :value="__('NIK')" />
 
                 <x-input id="nik" class="block mt-1 w-full" type="text" name="nik" :value="old('nik')" required autofocus />
+            </div>
+			
+			<!-- Photo -->
+            <div>
+                <x-label for="photo" :value="__('Foto')" />
+
+                <x-input id="photo" class="block mt-1 w-full" type="file" name="photo" :value="old('photo')" required autofocus />
             </div>
 			
 			<!-- Address -->

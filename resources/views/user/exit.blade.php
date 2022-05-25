@@ -43,8 +43,10 @@
                     <h1 class="text-center">Terima Kasih Telah Melakukan Pemilihan</h1>
                     <p class="text-center">Silahkan Keluar</p>
                     <div class="d-flex justify-content-center">
-        
-                        <button class="btn rounded-3" style="background-color: #F4656E; width:350px; color: white;">Keluar</button>
+						<form id="vote-form" action="{{ route('user.logout') }}" method="POST" >
+							@csrf
+							<input type="submit" value="Keluar" class="btn rounded-3" style="background-color: #F4656E; width:350px; color: white;">
+						</form>
     </div>
                 </div>
             </div>

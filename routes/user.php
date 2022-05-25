@@ -23,7 +23,15 @@ Route::prefix('user')->name('user.')->group(function () {
 	Route::get('/exit', [DashboardController::class, 'exitPage'])
         ->middleware('auth:user')
         ->name('exit');
-
+	
+	Route::get('/vote', [DashboardController::class, 'voteView'])
+        ->middleware('auth:user')
+        ->name('voteView');
+		
+	Route::post('/vote/{id}',[DashboardController::class, 'vote'])
+		->middleware('auth:user')
+        ->name('vote');
+	
     Route::get('/register', [RegisteredUserController::class, 'create'])
         ->middleware('guest:user')
         ->name('register');

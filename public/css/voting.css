@@ -1,0 +1,47 @@
+* {
+    font-family: Poppins, sans-serif;
+}
+section {
+    background-image: url("../image/background_voting.png");
+    background-repeat: no-repeat;
+    padding-bottom: 5.5rem;
+    padding-top: 5rem;
+}
+footer {
+    background: #f4656e;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    border-radius: 25px 25px 0px 0px;
+}
+
+.parralax {
+    /* The image used */
+    background-color: #feebed;
+
+    /* Set a specific height */
+    /* min-height: 250px; */
+    width: 450px;
+    min-height: 415px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    font-family: "Poppins", sans-serif;
+}
+
+.btn {
+    background-color: #f1323e;
+    width: 175px;
+    height: 40px;
+}
+
+.tombol {
+    margin-top: 2rem;
+}
+
+.image {
+    max-height: 250px;
+}

@@ -1,26 +1,10 @@
 section {
-    padding-top: 4rem;
+    padding-top: 5.5rem;
 }
 
 #section2 {
     background-color: #f6e3e4;
     margin-top: 3rem;
-}
-
-.nameTag {
-    background-color: #c51d26;
-    border-radius: 25px;
-    /* Set a specific height */
-    height: 80px;
-    width: 350px;
-    color: white;
-    font-size: 25px;
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-bottom: 5rem;
 }
 
 .parallax {

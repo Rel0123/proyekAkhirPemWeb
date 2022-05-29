@@ -1,0 +1,122 @@
+/* * {
+    overflow: hidden;
+} */
+
+.dropdown {
+    top: 400px;
+}
+
+.header {
+    background: rgb(254, 254, 254);
+    height: 60px;
+    width: 100%;
+}
+
+.logo {
+    width: 257px;
+    height: 110px;
+    background: #f7f7f7;
+    border-radius: 0px 0px 12px 12px;
+}
+
+.sideNav a {
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+
+.sideNav {
+    background: #f4656e;
+    border-radius: 5px;
+    box-shadow: inset 0px 0px 15px rgba(0, 0, 0, 0.25);
+    color: white;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+}
+
+.search {
+    width: 25%;
+    position: relative;
+
+    box-shadow: 0 0 40px rgba(51, 51, 51, 0.1);
+}
+
+.search input {
+    height: 40px;
+    text-indent: 25px;
+}
+
+.search input:focus {
+    box-shadow: none;
+    border: 2px solid blue;
+}
+
+.search .bi-search {
+    position: absolute;
+    top: 13px;
+    left: 16px;
+}
+
+.paralax {
+    /* The image used */
+    background-color: white;
+
+    /* Set a specific height */
+    min-height: 250px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    font-family: "Poppins", sans-serif;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+
+form {
+    border: none;
+}
+
+.cardCalon {
+    /* The image used */
+    background-color: #feebed;
+
+    /* Set a specific height */
+    /* min-height: 250px; */
+    width: 450px;
+    min-height: 415px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    font-family: "Poppins", sans-serif;
+}
+
+.image {
+    max-height: 250px;
+}
+
+.tag {
+    background-color: white;
+
+    /* Set a specific height */
+    /* min-height: 250px; */
+    width: 410px;
+    height: 50px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    font-family: "Poppins", sans-serif;
+}
+
+.card {
+    background: #feebed;
+}

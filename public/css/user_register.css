@@ -1,0 +1,10 @@
+body {
+    background-image: url("../image/bg_login.png");
+    background-repeat: no-repeat;
+}
+section {
+    padding-top: 5rem;
+}
+.form {
+    padding-top: 7rem;
+}

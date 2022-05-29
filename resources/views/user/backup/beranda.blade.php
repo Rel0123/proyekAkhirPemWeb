@@ -28,12 +28,6 @@
           </li>
         </ul>
       </div>
-      <div class="d-flex justify-content-end">
-      <form action="{{ route('user.logout') }}" method="POST" >
-		@csrf
-		<input type="submit" value="Keluar" style="background: #F4656E ;border:none; border-radius:5px;	width:100px;height:35px;color:white;">
-	</form>
-    </div>
     </div>
   </nav>
     <!-- bagian pertama -->
@@ -43,7 +37,7 @@
         <img src="{{ asset('image/pernik2.png') }}" class="mx-auto" style="padding-top: 1rem;">
         <img src="{{ asset('image/pernik1.png') }}" class="img-fluid" style="padding-top: 2.5rem; width:120px; height:175px;">
     </div>
-    <section id="beranda" >
+    <section>
 
         <div class="container-fluid mt-3">
             <div class="row">
@@ -70,14 +64,14 @@
         </div>
     </section>
     <!-- section 2 -->
-    <section id="tentang">
+    <section id="section2">
         <div class="container ">
             <div class="row">
                 <div class="col-md-6">
                 <img src="{{ asset('image/frame_2.png') }}" width="500px" height="500px">
-                <!-- <div class="nameTag">
+                <div class="nameTag">
                     <p class="text-center pt-3">Saya ingin negara demokratis</p>
-                </div>     -->
+                </div>    
             </div>
                 <div class="col-md-6 mt-5">
                     <h5>Tentang</h5>
@@ -89,12 +83,12 @@
         </div>
     </section>
     <!-- section 3 -->
-    <section id="berita" >
+    <section>
         <div class="berita container-fluid">
             <h1 class="text-center" style="font-size:35px ;font-weight:bold;">Berita</h1>
             <img src="{{ asset('image/pernik1.png') }}" class="img-fluid" style=" width:220px; height:90px; padding-left: 7rem; padding-top:2rem;">
             <div class="row justify-content-center">
-                <div class="parallax shadow p-3">
+                <div class="parallax">
                 <div class="row mb-5">
                                 
                                 <div class="card mt-5 col-md-3 col-sm-3 col-lg-3  mx-auto">
